@@ -4,7 +4,8 @@
     "description": "All In Chrome Extension so that you do not have to download multiple extensions",
     "browser_action":{
         "default_title": "ALICE",
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+         "default_icon": "icons/logo_128.png"
     },
     "manifest_version": 2,
     "permissions": [
