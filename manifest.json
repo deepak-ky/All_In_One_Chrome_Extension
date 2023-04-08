@@ -1,0 +1,23 @@
+{
+    "name": "ALICE",
+    "version": "0.0.1",
+    "description": "All In Chrome Extension so that you do not have to download multiple extensions",
+    "browser_action":{
+        "default_title": "ALICE",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>" 
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16.png",
+        "48": "icons/logo_48.png",
+        "128": "icons/logo_128.png"
+    }
+}
